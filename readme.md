@@ -22,6 +22,8 @@ npm i -g db-migrate db-migrate-mysql
 
 Documentation: https://db-migrate.readthedocs.io/en/latest/
 
+If for some reason, db-migrate does not work, please use sample database in db folder.
+
 
 Server Endpoints:
 GET Request - localhost:5000/api/search?query=<SEARCH_QUERY>
