@@ -1,0 +1,1 @@
+export const YOUTUBE_SEARCH_QUERY = 'https://www.googleapis.com/youtube/v3/search'
