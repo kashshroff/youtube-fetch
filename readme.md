@@ -1,4 +1,4 @@
-###Fampay Test
+### Fampay Test
 
 Objective:
 To make an API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
@@ -16,8 +16,10 @@ Alternate (Without Docker):
 2. Run -> db-migrate up
 3. Run -> npm run dev
 
-NOTE: Please make sure you have db-migrate package installed globally
-npm install -g db-migrate
+NOTE: Please make sure you have db-migrate package and db-migrate-mysql driver installed globally
+
+npm i -g db-migrate db-migrate-mysql
+
 Documentation: https://db-migrate.readthedocs.io/en/latest/
 
 
