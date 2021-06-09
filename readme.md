@@ -11,5 +11,15 @@ Setup:
 5. Run -> make build
 6. Run -> make up
 
+Alternate (Without Docker):
+1. Do step 1 to 4
+2. Run -> db-migrate up
+3. Run -> npm run dev
+
+NOTE: Please make sure you have db-migrate package installed globally
+npm install -g db-migrate
+Documentation: https://db-migrate.readthedocs.io/en/latest/
+
+
 Server Endpoints:
 GET Request - localhost:5000/api/search?query=<SEARCH_QUERY>
